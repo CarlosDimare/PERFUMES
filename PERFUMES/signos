@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>¿Cuál es tu perfume según tu signo?</title>
+<style>
+  * {margin:0; padding:0; box-sizing:border-box;}
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0a0a0a;
+    color: #f1f1f1;
+    text-align: center;
+  }
+  header {
+    padding: 30px 10px;
+    background: linear-gradient(135deg, #1f1f1f, #2c2c2c);
+    border-bottom: 2px solid #a87bff;
+  }
+  header h1 {
+    font-size: 2.2em;
+    color: #a87bff;
+    text-shadow: 0 0 10px rgba(168,123,255,0.6);
+  }
+  header p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #ccc;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 20px;
+    padding: 30px 10px;
+  }
+  .card {
+    background: #1b1b1b;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    transition: transform 0.3s ease;
+  }
+  .card:hover {
+    transform: translateY(-6px);
+  }
+  .card img {
+    width: 100%;
+    display: block;
+  }
+  .card h2 {
+    font-size: 1.1em;
+    margin: 10px 0 4px;
+    color: #f1f1f1;
+  }
+  .card p {
+    font-size: 0.9em;
+    color: #ccc;
+    margin-bottom: 12px;
+  }
+  .card .signo-desc {
+    font-size: 0.85em;
+    color: #a87bff;
+    padding: 0 10px 10px;
+  }
+  footer {
+    padding: 15px;
+    background: #111;
+    font-size: 0.85em;
+    color: #777;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>✨ ¿Cuál es tu perfume según tu signo? ✨</h1>
+  <p>Descubre el aroma que conecta con tu energía zodiacal. Cada signo tiene su esencia única, una fragancia que refleja su magnetismo, personalidad y destino.</p>
+</header>
+
+<section class="grid">
+  <div class="card">
+    <img src="https://raw.githubusercontent.com/CarlosDimare/PERFUMES/refs/heads/main/PERFUMES/LA%20VIE%20EST%20BELLE.jpeg">
+    <h2>Aries ♈</h2>
+    <p>La Vie Est Belle – Lancôme</p>
+    <div class="signo-desc">Impulsivo y valiente, Aries brilla con una fragancia optimista y luminosa que anuncia nuevos comienzos.</div>
+  </div>
+  <div class="card">
+    <img src="https://raw.githubusercontent.com/CarlosDimare/PERFUMES/refs/heads/main/PERFUMES/GOOD%20GIRL.jpeg">
+    <h2>Tauro ♉</h2>
+    <p>Good Girl – Carolina Herrera</p>
+    <div class="signo-desc">Sensual y amante del placer, Tauro encuentra en esta fragancia un toque irresistible y terrenal.</div>
+  </div>
+  <div class="card">
+    <img src="https://raw.githubusercontent.com/CarlosDimare/PERFUMES/refs/heads/main/PERFUMES/BLUE.jpeg">
+    <h2>Géminis ♊</h2>
+    <p>Bleu de Chanel</p>
+    <div class="signo-desc">Dual y carismático, Géminis vibra con un aroma fresco y versátil que refleja su naturaleza cambiante.</div>
+  </div>
+  <div class="card">
+    <img src="https://raw.githubusercontent.com/CarlosDimare/PERFUMES/refs/heads/main/PERFUMES/SAVAGE.jpeg">
+    <h2>Cáncer ♋</h2>
+    <p>Dior Sauvage</p>
+    <div class="signo-desc">Emocional y protector, Cáncer se siente pleno con una fragancia intensa y profundamente magnética.</div>
+  </div>
+  <div class="card">
+    <img src="https://raw.githubusercontent.com/CarlosDimare/PERFUMES/refs/heads/main/PERFUMES/BLACK%20OPIUM.jpeg">
+    <h2>Leo ♌</h2>
+    <p>Black Opium – YSL</p>
+    <div class="signo-desc">Exuberante y apasionado, Leo necesita un aroma atrevido que lo haga destacar en cualquier lugar.</div>
+  </div>
+  <div class="card">
+    <img src="https://raw.githubusercontent.com/CarlosDimare/PERFUMES/refs/heads/main/PERFUMES/JADORE.jpeg">
+    <h2>Virgo ♍</h2>
+    <p>J'Adore – Dior</p>
+    <div class="signo-desc">Perfeccionista y elegante, Virgo se identifica con un perfume sofisticado y puro.</div>
+  </div>
+  <div class="card">
+    <img src="https://raw.githubusercontent.com/CarlosDimare/PERFUMES/refs/heads/main/PERFUMES/1%20MILLION.jpeg">
+    <h2>Libra ♎</h2>
+    <p>1 Million – Paco Rabanne</p>
+    <div class="signo-desc">Amante del equilibrio y el lujo, Libra resplandece con un aroma magnético y encantador.</div>
+  </div>
+  <div class="card">
+    <img src="https://raw.githubusercontent.com/CarlosDimare/PERFUMES/refs/heads/main/PERFUMES/LIGHT%20BLUE.jpg">
+    <h2>Escorpio ♏</h2>
+    <p>Light Blue – D&G</p>
+    <div class="signo-desc">Intenso y enigmático, Escorpio se reconoce en una fragancia fresca pero con un fondo seductor.</div>
+  </div>
+  <div class="card">
+    <img src="https://raw.githubusercontent.com/CarlosDimare/PERFUMES/refs/heads/main/PERFUMES/LIBRE.jpeg">
+    <h2>Sagitario ♐</h2>
+    <p>Libre – YSL</p>
+    <div class="signo-desc">Aventurero y libre, Sagitario elige un perfume vibrante que lo acompañe en cada viaje.</div>
+  </div>
+  <div class="card">
+    <img src="https://raw.githubusercontent.com/CarlosDimare/PERFUMES/refs/heads/main/PERFUMES/COCO.jpeg">
+    <h2>Capricornio ♑</h2>
+    <p>Coco Mademoiselle – Chanel</p>
+    <div class="signo-desc">Ambicioso y refinado, Capricornio necesita un aroma clásico que refleje su determinación.</div>
+  </div>
+  <div class="card">
+    <img src="https://raw.githubusercontent.com/CarlosDimare/PERFUMES/refs/heads/main/PERFUMES/ARMANI%20CODE.jpeg">
+    <h2>Acuario ♒</h2>
+    <p>Armani Code – Armani</p>
+    <div class="signo-desc">Innovador y rebelde, Acuario vibra con un aroma misterioso que rompe esquemas.</div>
+  </div>
+  <div class="card">
+    <img src="https://raw.githubusercontent.com/CarlosDimare/PERFUMES/refs/heads/main/PERFUMES/FLOWER%20BOMB.jpeg">
+    <h2>Piscis ♓</h2>
+    <p>Flowerbomb – Viktor & Rolf</p>
+    <div class="signo-desc">Soñador y compasivo, Piscis encuentra su esencia en un perfume etéreo y romántico.</div>
+  </div>
+</section>
+
+<footer>
+  © 2025 Perfumes Zodiacales – Emprendimiento en Instagram
+</footer>
+</body>
+</html>
